@@ -141,7 +141,8 @@ int initialise()
             mattrix[i][j] = ' ';
         }
     }
-
+    gameover = 0;
+    key=3;
     snakex[0] = WIDTH / 2 - 1;
     snakey[0] = HEIGHT / 2 - 1;
     snakex[1] = snakex[0];
